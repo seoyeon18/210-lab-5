@@ -8,7 +8,7 @@ int main() {
     cout << "x = " << x << "  | y = " << y << endl;
 
     cout << "Swapping...\n";
-    int sum = swap(x, y);
+    int sum = swap(&x, &y);
     cout << "x = " << x << " | y = " << y << endl;
     cout << "sum = " << sum << endl;
     return 0;
